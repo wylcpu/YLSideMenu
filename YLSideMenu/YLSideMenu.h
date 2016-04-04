@@ -13,7 +13,15 @@
  *  设置可以滑动的距离，默认是屏幕的0.8宽
  */
 @property (nonatomic,assign)CGFloat translationDistance;
+/**
+ *  菜单栏的滑动距离
+ */
 @property (nonatomic,assign)CGFloat menuTranslationDistance;
+/**
+ *  默认是1，没有缩放效果
+ */
+@property (nonatomic,assign)CGFloat scaleMenu;
+@property (nonatomic,assign)CGFloat scaleContent;
 /**
  *  默认是0.3s
  */

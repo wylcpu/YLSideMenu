@@ -13,6 +13,10 @@
 		F809E05A1CAF987B00AAC643 /* qqbgg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F809E0591CAF987B00AAC643 /* qqbgg@2x.png */; };
 		F809E05D1CB0257A00AAC643 /* rightView.m in Sources */ = {isa = PBXBuildFile; fileRef = F809E05C1CB0257A00AAC643 /* rightView.m */; };
 		F809E0601CB0396F00AAC643 /* UIViewController+YLSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F809E05F1CB0396F00AAC643 /* UIViewController+YLSideMenu.m */; };
+		F80E4A831CB0D9AF00E641A5 /* YLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E4A821CB0D9AF00E641A5 /* YLTableView.m */; };
+		F80E4A851CB0E34900E641A5 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F80E4A841CB0E34900E641A5 /* bg.jpeg */; };
+		F80E4A871CB0E42500E641A5 /* Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F80E4A861CB0E42500E641A5 /* Stars@2x.png */; };
+		F80E4A8A1CB15A5F00E641A5 /* YLRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E4A891CB15A5F00E641A5 /* YLRightView.m */; };
 		F813BF771CAED93800855F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F813BF761CAED93800855F08 /* main.m */; };
 		F813BF7A1CAED93800855F08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F813BF791CAED93800855F08 /* AppDelegate.m */; };
 		F813BF7D1CAED93800855F08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F813BF7C1CAED93800855F08 /* ViewController.m */; };
@@ -33,6 +37,12 @@
 		F809E05C1CB0257A00AAC643 /* rightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rightView.m; sourceTree = "<group>"; };
 		F809E05E1CB0396F00AAC643 /* UIViewController+YLSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YLSideMenu.h"; sourceTree = "<group>"; };
 		F809E05F1CB0396F00AAC643 /* UIViewController+YLSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YLSideMenu.m"; sourceTree = "<group>"; };
+		F80E4A811CB0D9AF00E641A5 /* YLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableView.h; sourceTree = "<group>"; };
+		F80E4A821CB0D9AF00E641A5 /* YLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableView.m; sourceTree = "<group>"; };
+		F80E4A841CB0E34900E641A5 /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		F80E4A861CB0E42500E641A5 /* Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stars@2x.png"; sourceTree = "<group>"; };
+		F80E4A881CB15A5F00E641A5 /* YLRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRightView.h; sourceTree = "<group>"; };
+		F80E4A891CB15A5F00E641A5 /* YLRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRightView.m; sourceTree = "<group>"; };
 		F813BF721CAED93800855F08 /* YLSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F813BF761CAED93800855F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F813BF781CAED93800855F08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,8 +94,12 @@
 				F813BF7C1CAED93800855F08 /* ViewController.m */,
 				F809E0511CAF805000AAC643 /* YLLeftView.h */,
 				F809E0521CAF805000AAC643 /* YLLeftView.m */,
+				F80E4A811CB0D9AF00E641A5 /* YLTableView.h */,
+				F80E4A821CB0D9AF00E641A5 /* YLTableView.m */,
 				F809E0531CAF805000AAC643 /* ViewView.h */,
 				F809E0541CAF805000AAC643 /* ViewView.m */,
+				F80E4A881CB15A5F00E641A5 /* YLRightView.h */,
+				F80E4A891CB15A5F00E641A5 /* YLRightView.m */,
 				F813BF7E1CAED93800855F08 /* Main.storyboard */,
 				F813BF811CAED93800855F08 /* Assets.xcassets */,
 				F813BF831CAED93800855F08 /* LaunchScreen.storyboard */,
@@ -109,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				F809E0591CAF987B00AAC643 /* qqbgg@2x.png */,
+				F80E4A841CB0E34900E641A5 /* bg.jpeg */,
+				F80E4A861CB0E42500E641A5 /* Stars@2x.png */,
 				F813BF8D1CAED9CF00855F08 /* YLSideMenu.h */,
 				F813BF8E1CAED9CF00855F08 /* YLSideMenu.m */,
 				F809E0571CAF969400AAC643 /* qqbg@2x.jpeg */,
@@ -175,7 +191,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80E4A851CB0E34900E641A5 /* bg.jpeg in Resources */,
 				F813BF851CAED93800855F08 /* LaunchScreen.storyboard in Resources */,
+				F80E4A871CB0E42500E641A5 /* Stars@2x.png in Resources */,
 				F809E05A1CAF987B00AAC643 /* qqbgg@2x.png in Resources */,
 				F809E0581CAF969400AAC643 /* qqbg@2x.jpeg in Resources */,
 				F813BF821CAED93800855F08 /* Assets.xcassets in Resources */,
@@ -194,7 +212,9 @@
 				F813BF7D1CAED93800855F08 /* ViewController.m in Sources */,
 				F809E0561CAF805000AAC643 /* ViewView.m in Sources */,
 				F813BF7A1CAED93800855F08 /* AppDelegate.m in Sources */,
+				F80E4A8A1CB15A5F00E641A5 /* YLRightView.m in Sources */,
 				F813BF8F1CAED9CF00855F08 /* YLSideMenu.m in Sources */,
+				F80E4A831CB0D9AF00E641A5 /* YLTableView.m in Sources */,
 				F813BF771CAED93800855F08 /* main.m in Sources */,
 				F809E0551CAF805000AAC643 /* YLLeftView.m in Sources */,
 				F809E0601CB0396F00AAC643 /* UIViewController+YLSideMenu.m in Sources */,
